@@ -1,12 +1,46 @@
-import ReactDOM from 'react-dom/client'
+import { createRoot } from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import Header from "./containers/Header";
+import Footer from "./containers/Footer";
+
+//#region PAGES
+
 import App from "./app"
+import Options from "./app/pages/options"
+
+//#endregion
+
+import "./global.scss"
 
 const domElement = document.querySelector("#root")
 if (!domElement) throw new Error("root doesn't exist")
 
-const root = ReactDOM.createRoot(domElement)
+const PATHS = {
+  main: "/",
+  options: "options"
+}
 
-root.render(<App />)
+const router = createBrowserRouter([
+  {
+    path: PATHS.main,
+    element: (<App />)
+  },
+  {
+    path: PATHS.options,
+    element: (<Options />)
+  }
+])
+
+const root = createRoot(domElement)
+
+root.render(
+  <div className="temporal context provider">
+    <Header />
+    <RouterProvider router={router} />
+    <Footer />
+  </div>
+)
 
 /*
   Consumir la api de Rick and Morty  url API (https://rickandmortyapi.com/api/)
