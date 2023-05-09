@@ -1,0 +1,39 @@
+{
+    "info": [
+        {
+            "id": 0,
+            "name": "Juan",
+            "species": "Human",
+            "status": "Alive",
+            "image": "https://s10.s3c.es/imag/_v0/770x420/b/5/0/Gato-enfadado.jpg"
+        },
+        {
+            "id": 1,
+            "name": "Mauricio",
+            "species": "Cat",
+            "status": "Alive",
+            "image": "https://s10.s3c.es/imag/_v0/770x420/b/5/0/Gato-enfadado.jpg"
+        },
+        {
+            "id": 2,
+            "name": "David",
+            "species": "Human",
+            "status": "Alive",
+            "image": "https://s10.s3c.es/imag/_v0/770x420/b/5/0/Gato-enfadado.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Jorge",
+            "species": "Human",
+            "status": "Alive",
+            "image": "https://s10.s3c.es/imag/_v0/770x420/b/5/0/Gato-enfadado.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Yaz",
+            "species": "Patrona",
+            "status": "Angry",
+            "image": "https://s10.s3c.es/imag/_v0/770x420/b/5/0/Gato-enfadado.jpg"
+        }
+    ]
+}
