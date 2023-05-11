@@ -1,1 +1,26 @@
-.header-container {}
+@import "../../global.scss";
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: $black;
+}
+
+.menu-wrapper {
+    display: flex;
+
+    li {
+        list-style: none
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu-holder {
+        margin: 0px 5px
+    }
+}

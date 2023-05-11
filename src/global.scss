@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Roboto:wght@100&display=swap');
+
+$black: #000000;
+$fluorescent-green: #39FF14;
+$rose-brighter: #FF2AC3;
+$psycho-purple:  #AA00FF;
+$acid-yellow: #FFFF00;
+$electric-blue: #00FFFF;
+
+$titles-font: 'Montserrat', sans-serif;
+$text-font-variation: 'Open Sans', sans-serif;
+$text-font: 'Roboto';
+
+$pc-width: 1920px;
+$tablet-width: 768px;
+$mobile-width: 320px;
+
 * {
     margin: 0;
     padding: 0;
